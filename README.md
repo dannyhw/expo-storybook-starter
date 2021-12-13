@@ -35,3 +35,5 @@ To watch the stories files
 ```
 yarn storybook-watcher
 ```
+
+Note that this is only necessary for when you add or remove a story file.
