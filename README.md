@@ -18,17 +18,9 @@ To run on ios or android
 yarn start
 ```
 
-in another terminal run
+Then from open the app from the terminal or from the expo ui in ios or android.
 
-```
-yarn ios
-```
-
-or
-
-```
-yarn android
-```
+# important for ondevice
 
 If you add new stories on the native (ondevice version) you either need to have the watcher running or run the stories loader
 
