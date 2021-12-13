@@ -7,18 +7,39 @@
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
-    "eject": "expo eject"
+    "eject": "expo eject",
+    "update-stories": "sb-rn-get-stories --config-path .ondevice",
+    "prestart": "yarn update-stories",
+    "storybook-watcher": "sb-rn-watcher --config-path .ondevice",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "dependencies": {
+    "@react-native-async-storage/async-storage": "~1.15.0",
+    "@react-native-community/datetimepicker": "3.5.2",
+    "@react-native-community/slider": "4.1.7",
+    "@storybook/addon-actions": "~6.3.0",
+    "@storybook/addon-controls": "~6.3.0",
+    "@storybook/addon-ondevice-actions": "^6.0.1-alpha.7",
+    "@storybook/addon-ondevice-backgrounds": "^6.0.1-alpha.7",
+    "@storybook/addon-ondevice-controls": "^6.0.1-alpha.7",
+    "@storybook/addon-ondevice-notes": "^6.0.1-alpha.7",
+    "@storybook/react-native": "^6.0.1-alpha.7",
     "expo": "~43.0.2",
     "expo-status-bar": "~1.1.0",
     "react": "17.0.1",
-    "react-dom": "17.0.1",
+    "react-dom": "^17.0.2",
     "react-native": "0.64.3",
-    "react-native-web": "0.17.1"
+    "react-native-web": "^0.17.5"
   },
   "devDependencies": {
-    "@babel/core": "^7.12.9"
+    "@babel/core": "^7.12.9",
+    "@storybook/addon-essentials": "~6.3.0",
+    "@storybook/addon-links": "~6.3.0",
+    "@storybook/addon-react-native-web": "^0.0.14",
+    "@storybook/react": "~6.3.0",
+    "babel-loader": "^8.2.3",
+    "babel-plugin-react-native-web": "^0.17.5"
   },
   "private": true
 }
