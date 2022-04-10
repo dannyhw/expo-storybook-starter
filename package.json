@@ -37,7 +37,7 @@
     "@storybook/addon-ondevice-notes": "next",
     "@storybook/addon-react-native-web": "^0.0.18",
     "@storybook/react-native": "next",
-    "@storybook/react": "~6.4.20",
+    "@storybook/react": "~6.3.0",
     "babel-loader": "^8.2.3",
     "babel-plugin-react-native-web": "^0.17.5"
   },
