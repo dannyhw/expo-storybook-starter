@@ -21,25 +21,25 @@
     "expo-status-bar": "~1.2.0",
     "expo": "~44.0.6",
     "react-dom": "17.0.1",
-    "react-native-web": "0.17.1",
+    "react-native-web": "0.18.10",
     "react-native": "0.64.3",
     "react": "17.0.1"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
-    "@storybook/addon-actions": "~6.3.0",
-    "@storybook/addon-controls": "~6.3.0",
-    "@storybook/addon-essentials": "~6.3.0",
-    "@storybook/addon-links": "~6.3.0",
-    "@storybook/addon-ondevice-actions": "next",
-    "@storybook/addon-ondevice-backgrounds": "next",
-    "@storybook/addon-ondevice-controls": "next",
-    "@storybook/addon-ondevice-notes": "next",
-    "@storybook/addon-react-native-web": "^0.0.18",
-    "@storybook/react-native": "next",
-    "@storybook/react": "~6.3.0",
+    "@storybook/addon-actions": "^6.5.0",
+    "@storybook/addon-controls": "^6.5.0",
+    "@storybook/addon-essentials": "^6.5.0",
+    "@storybook/addon-links": "^6.5.0",
+    "@storybook/addon-ondevice-actions": "6.0.1-beta.9",
+    "@storybook/addon-ondevice-backgrounds": "6.0.1-beta.9",
+    "@storybook/addon-ondevice-controls": "6.0.1-beta.9",
+    "@storybook/addon-ondevice-notes": "6.0.1-beta.9",
+    "@storybook/addon-react-native-web": "^0.0.19",
+    "@storybook/react-native": "6.0.1-beta.9",
+    "@storybook/react": "^6.5",
     "babel-loader": "^8.2.3",
-    "babel-plugin-react-native-web": "^0.17.5"
+    "babel-plugin-react-native-web": "^0.18.10"
   },
   "private": true
 }
