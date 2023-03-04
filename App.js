@@ -1,14 +1,27 @@
-import React from "react";
-import StorybookUIRoot from "./.ondevice/Storybook";
-import { Platform, StatusBar, View } from "react-native";
+import { StyleSheet, Text, View } from "react-native";
+import Constants from "expo-constants";
 
-export default () => (
-  <View
-    style={{
-      flex: 1,
-      marginTop: Platform.OS === "android" ? StatusBar.currentHeight : 0,
-    }}
-  >
-    <StorybookUIRoot />
-  </View>
-);
+function App() {
+  return (
+    <View style={styles.container}>
+      <Text>Open up App.tsx to start working on your app!</Text>
+    </View>
+  );
+}
+
+let AppEntryPoint = App;
+
+if (Constants.expoConfig?.extra?.storybookEnabled === "true") {
+  AppEntryPoint = require("./.ondevice").default;
+}
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: "#fff",
+    alignItems: "center",
+    justifyContent: "center",
+  },
+});
+
+export default AppEntryPoint;
