@@ -3349,19 +3349,19 @@
     core-js "^3.8.2"
     global "^4.4.0"
 
-"@storybook/addon-ondevice-actions@6.5.0-rc.5":
-  version "6.5.0-rc.5"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-ondevice-actions/-/addon-ondevice-actions-6.5.0-rc.5.tgz#1fa96cb55fa33d3b806ec61ceae95c78bfd5902d"
-  integrity sha512-qZh3Aqn+fKEnp70IERV3d4vM1xzni8bB8OqdzVSLuIDDLpIQ+guCpNRbRPthiqmrXvU25CAhYeGa+jph768PAw==
+"@storybook/addon-ondevice-actions@^6.5.1":
+  version "6.5.1"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-ondevice-actions/-/addon-ondevice-actions-6.5.1.tgz#6f4903d16dfab83727f963d58597b8c5bdae9f38"
+  integrity sha512-dyKErK97sT+cd5ApGSYHQokMK+GHLaucrJ/LhHtPxWwMHulaV17Pyzbb8FE550DF3YNXjkcZZjMMJlc/1QmgCQ==
   dependencies:
     "@storybook/addons" "^6.5.14"
     "@storybook/core-events" "^6.5.14"
     fast-deep-equal "^2.0.1"
 
-"@storybook/addon-ondevice-backgrounds@6.5.0-rc.5":
-  version "6.5.0-rc.5"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-ondevice-backgrounds/-/addon-ondevice-backgrounds-6.5.0-rc.5.tgz#0764e3a0568c3dfff01bb8105dc721cc7d184f2e"
-  integrity sha512-0DG+yIeRIojDrl26eEkLoq87Ck1WULJN4SWNnh8jG45y4jhfbjlWkI+9iu9ycNJ6pdrotWBxE83SfspxNXhRhA==
+"@storybook/addon-ondevice-backgrounds@^6.5.1":
+  version "6.5.1"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-ondevice-backgrounds/-/addon-ondevice-backgrounds-6.5.1.tgz#a47fc2eb11fd2c6749aa4b91d4f8f5e59582df94"
+  integrity sha512-ZYUZghlch5ysPG/mIKK7Lbw0udSCUuG27KjabYgkXy5xbvw8ZpYs6+yigRHRPaaBYffVVl4Itc3Jqkram6H/9A==
   dependencies:
     "@storybook/addons" "^6.5.14"
     "@storybook/api" "^6.5.14"
@@ -3369,10 +3369,10 @@
     core-js "^3.0.1"
     prop-types "^15.7.2"
 
-"@storybook/addon-ondevice-controls@6.5.0-rc.5":
-  version "6.5.0-rc.5"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-ondevice-controls/-/addon-ondevice-controls-6.5.0-rc.5.tgz#7ef1c1b2bf21f1bf4c47b73a3d02b4e111a501df"
-  integrity sha512-0CT4WO8PBJgnjrElg9Jjv4FxVLjkxJSd66i8nsozYMz3suDPXJx8btsntBk6G6GbIdf4hotD/B+MyDK/osbUwQ==
+"@storybook/addon-ondevice-controls@^6.5.1":
+  version "6.5.1"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-ondevice-controls/-/addon-ondevice-controls-6.5.1.tgz#6a653a2ea361c456ae3c0eb085293090f45f9311"
+  integrity sha512-qloWEdyXwtDjUXF9V8CZnnTnDN8SLeO2vhrCsDBv1v64oUvlmnaxBVVRvB2go8kybpnF9lnYyBFXQZVigg/fFA==
   dependencies:
     "@emotion/native" "^10.0.14"
     "@storybook/addons" "^6.5.14"
@@ -3385,10 +3385,10 @@
     react-native-modal-selector "^2.1.1"
     tinycolor2 "^1.4.1"
 
-"@storybook/addon-ondevice-notes@6.5.0-rc.5":
-  version "6.5.0-rc.5"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-ondevice-notes/-/addon-ondevice-notes-6.5.0-rc.5.tgz#6f5c32bbca18e206609775f602b2d9e7aeee008c"
-  integrity sha512-9GpQg/SYdtMgaF1g9zz/3GRNlz8/+7fBY1l+W9B8gnV5oOS0tbEzYvxVMB9EyqraKSqrhuzjNq0K5lATmLnJ2A==
+"@storybook/addon-ondevice-notes@^6.5.1":
+  version "6.5.1"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-ondevice-notes/-/addon-ondevice-notes-6.5.1.tgz#124c8e38ec82afeb48e48918fdd66ebc28a1f7c1"
+  integrity sha512-PDC/bsRmo/l+BziF2iciF/MGeLSE+IMVB7qA+Hzd5wYOmv7ddPVclT2eB7Z5jWDA4Y1DE2ndp6QWa3O2rzI+5w==
   dependencies:
     "@emotion/core" "^10.0.20"
     "@storybook/addons" "^6.5.14"
@@ -3397,6 +3397,7 @@
     "@storybook/client-logger" "^6.5.14"
     "@storybook/core-events" "^6.5.14"
     core-js "^3.0.1"
+    emotion-theming "^10.0.19"
     prop-types "^15.7.2"
     simple-markdown "^0.7.3"
 
@@ -4006,10 +4007,10 @@
     react-docgen-typescript "^2.1.1"
     tslib "^2.0.0"
 
-"@storybook/react-native@6.5.0-rc.5":
-  version "6.5.0-rc.5"
-  resolved "https://registry.yarnpkg.com/@storybook/react-native/-/react-native-6.5.0-rc.5.tgz#c86a4ba4c5d92cef174ed2ceeb665a9738e4215a"
-  integrity sha512-dzcQDQaoR/d62W5NhiuIRgkzWa6UIOlzqA5+znqltpuitgoe2vGYhOXvnUbErD4TCO8yB1valcWpfZ48k4TZNg==
+"@storybook/react-native@^6.5.1":
+  version "6.5.1"
+  resolved "https://registry.yarnpkg.com/@storybook/react-native/-/react-native-6.5.1.tgz#d79ae0e87b8ce9ee4b7d3486c25d7bc3598d8d5c"
+  integrity sha512-JNPwZP0i9UjAHOvbVAELZbZvdlhrwt8KSl6ZDYa3qhknKJ+CbQAp1r6z58TouhfL+ox3xocy4ZvlnPLihr+T2A==
   dependencies:
     "@emotion/core" "^10.0.20"
     "@emotion/native" "^10.0.14"
