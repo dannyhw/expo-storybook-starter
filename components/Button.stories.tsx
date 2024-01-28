@@ -3,7 +3,7 @@ import React from "react";
 import { View } from "react-native";
 import { MyButton } from "./Button";
 
-const MyButtonMeta: Meta<typeof MyButton> = {
+const meta = {
   title: "MyButton",
   component: MyButton,
   args: {
@@ -16,10 +16,10 @@ const MyButtonMeta: Meta<typeof MyButton> = {
       </View>
     ),
   ],
-};
+} satisfies Meta<typeof MyButton>;
 
-export default MyButtonMeta;
+export default meta;
 
-type MyButtonStory = StoryObj<typeof MyButton>;
+type Story = StoryObj<typeof meta>;
 
-export const Basic: MyButtonStory = {};
+export const Basic: Story = {};
