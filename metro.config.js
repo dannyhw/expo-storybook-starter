@@ -1,14 +1,7 @@
 const path = require("path");
 const { getDefaultConfig } = require("expo/metro-config");
-const { generate } = require("@storybook/react-native/scripts/generate");
-
-generate({
-  configPath: path.resolve(__dirname, "./.ondevice"),
-});
 
 const defaultConfig = getDefaultConfig(__dirname);
-
-defaultConfig.transformer.unstable_allowRequireContext = true;
 
 defaultConfig.resolver.resolveRequest = (context, moduleName, platform) => {
   const defaultResolveResult = context.resolveRequest(
@@ -29,4 +22,9 @@ defaultConfig.resolver.resolveRequest = (context, moduleName, platform) => {
   return defaultResolveResult;
 };
 
-module.exports = defaultConfig;
+const withStorybook = require("@storybook/react-native/metro/withStorybook");
+
+module.exports = withStorybook(defaultConfig, {
+  enabled: process.env.STORYBOOK_ENABLED === "true",
+  configPath: path.resolve(__dirname, "./.ondevice"),
+});
