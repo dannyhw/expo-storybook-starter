@@ -2393,46 +2393,46 @@
     "@storybook/global" "^5.0.0"
     tiny-invariant "^1.3.1"
 
-"@storybook/addon-ondevice-actions@8.4.0-alpha.1":
-  version "8.4.0-alpha.1"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-ondevice-actions/-/addon-ondevice-actions-8.4.0-alpha.1.tgz#4821489403a627d19ba4b7d70f9e5b14816d9530"
-  integrity sha512-sGBlAjYvXoYWYpLQOpUz90aMGS8Fm4qX9TtcEhtKX6WHEtwJxiMw5ttDmkFJAatKjtVMW6dwE5TOlIj5E3DFjA==
+"@storybook/addon-ondevice-actions@8.4.0-rc.0":
+  version "8.4.0-rc.0"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-ondevice-actions/-/addon-ondevice-actions-8.4.0-rc.0.tgz#6aa70e0d9aeaf93c241eb4aad1b0ebf87a75f6fd"
+  integrity sha512-0t/26k4ztNtTummIgXa6JKJQMRk3tIyzkkCnZJxrwwNTFyJx/ED2Sk/QV5MVpLqr1zSY05f9tmxfO3ZxuLSmwQ==
   dependencies:
     "@storybook/addon-actions" "^8.4.0"
     "@storybook/core" "^8.4.0"
     "@storybook/global" "^5.0.0"
     fast-deep-equal "^2.0.1"
 
-"@storybook/addon-ondevice-backgrounds@8.4.0-alpha.1":
-  version "8.4.0-alpha.1"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-ondevice-backgrounds/-/addon-ondevice-backgrounds-8.4.0-alpha.1.tgz#5309190f45dccb78fd9ef79b8c8dfc77b40be2f4"
-  integrity sha512-6Azem5dkMtYQvKc/8ERZuziC8RYBBA3D/OtD/A9bmWOEjTCptIMZ7htHGFoClD8dWmTGAiyBc9TtjDokhf7Ysw==
+"@storybook/addon-ondevice-backgrounds@8.4.0-rc.0":
+  version "8.4.0-rc.0"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-ondevice-backgrounds/-/addon-ondevice-backgrounds-8.4.0-rc.0.tgz#f8b7f77e854a6af2a397c0be888525949291ed7f"
+  integrity sha512-bCTNwHJ/LueK89x57wj3cCLA/T8CnqzoCoTRUGqiF6+6qMSEvgkBSkJEhMLkzm7m0rpBBTQeG8xY5qCZ45RIaw==
   dependencies:
     "@storybook/core" "^8.4.0"
-    "@storybook/react-native-theming" "^8.4.0-alpha.1"
+    "@storybook/react-native-theming" "^8.4.0-rc.0"
 
-"@storybook/addon-ondevice-controls@8.4.0-alpha.1":
-  version "8.4.0-alpha.1"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-ondevice-controls/-/addon-ondevice-controls-8.4.0-alpha.1.tgz#c1003160f0008a2c5f13e86793bb5382fab321b8"
-  integrity sha512-1mddEmBAdX3iTL2grATJLj55c9LYba5dAmct/3As21Sk1Vm17ZrkkszyUqnHD1vCFSwEgbUc0QaPgm2986/+4w==
+"@storybook/addon-ondevice-controls@8.4.0-rc.0":
+  version "8.4.0-rc.0"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-ondevice-controls/-/addon-ondevice-controls-8.4.0-rc.0.tgz#4b4fcb7f5d1726fe03e5a4d274a7d5a3276b890a"
+  integrity sha512-jHG9OgPRWRd5WMsOTX7+kCnACZK0C/NO0JktLnkqEHa2+8F7vHH+H5f6wRi9v5sTIyopAasZ+m1XyFt70bWUig==
   dependencies:
     "@storybook/addon-controls" "^8.4.0"
     "@storybook/core" "^8.4.0"
-    "@storybook/react-native-theming" "^8.4.0-alpha.1"
-    "@storybook/react-native-ui" "^8.4.0-alpha.1"
+    "@storybook/react-native-theming" "^8.4.0-rc.0"
+    "@storybook/react-native-ui" "^8.4.0-rc.0"
     deep-equal "^1.0.1"
     prop-types "^15.7.2"
     react-native-modal-datetime-picker "^14.0.0"
     react-native-modal-selector "^2.1.1"
     tinycolor2 "^1.4.1"
 
-"@storybook/addon-ondevice-notes@8.4.0-alpha.1":
-  version "8.4.0-alpha.1"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-ondevice-notes/-/addon-ondevice-notes-8.4.0-alpha.1.tgz#e7dee1bc9433fca886931e36c3f08900764fd94b"
-  integrity sha512-MrZGYdrVPkvPAcdxg0nNDO0qp8Eh36Sg0+kOB6kYOkmAT3UuxfxM7qoLmcxJjB2CBmSMienkQ8zfe2sGy1jhjw==
+"@storybook/addon-ondevice-notes@8.4.0-rc.0":
+  version "8.4.0-rc.0"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-ondevice-notes/-/addon-ondevice-notes-8.4.0-rc.0.tgz#293c9a937569d0ecf65d05286293eb268f6d7a14"
+  integrity sha512-sV/qLY1fUDFit9htehCwchNQS61Avc2UDKh52MXqK1sN9jeI7lorBgTezFEu2OivMcqdO3cUCBIoF1HEwHMIyw==
   dependencies:
     "@storybook/core" "^8.4.0"
-    "@storybook/react-native-theming" "^8.4.0-alpha.1"
+    "@storybook/react-native-theming" "^8.4.0-rc.0"
     react-native-markdown-display "^7.0.2"
 
 "@storybook/addon-outline@8.4.0":
@@ -2630,37 +2630,37 @@
   resolved "https://registry.yarnpkg.com/@storybook/react-dom-shim/-/react-dom-shim-8.4.1.tgz#aa6d4bddd5517748865b6575a70435ed35669ff5"
   integrity sha512-XhvuqkpqtcUjDA8XE4osq140SCddX3VHMdj+IwlrMdoSl32CAya01TH5YDDx6YMy6hM/QQbyVKaemG7RB/oU4Q==
 
-"@storybook/react-native-theming@^8.4.0-alpha.1":
-  version "8.4.0-alpha.1"
-  resolved "https://registry.yarnpkg.com/@storybook/react-native-theming/-/react-native-theming-8.4.0-alpha.1.tgz#fc218a8a6dbdde3f2ee743ba4e63123227c90473"
-  integrity sha512-SBSDJdKj3klYgOw6jk1uoNGWnIXJwQzxOMj4rGOanln+Aua49qiPyGFsyIV+bbTTypzYcenuNh8BUJuvNhSi0w==
+"@storybook/react-native-theming@^8.4.0-rc.0":
+  version "8.4.0-rc.0"
+  resolved "https://registry.yarnpkg.com/@storybook/react-native-theming/-/react-native-theming-8.4.0-rc.0.tgz#e8eccf635bd4fdff00d57c3cacaf5f1a7c6ab97f"
+  integrity sha512-nUjgEnktI8x5VNo5XuPdWeGR0ECAfwYDOAo/anU6KqjfQGs4tNY1RDGKdATBW4bYiolkFqqEJZmJz86NC/qttQ==
   dependencies:
     polished "^4.3.1"
 
-"@storybook/react-native-ui@^8.4.0-alpha.1":
-  version "8.4.0-alpha.1"
-  resolved "https://registry.yarnpkg.com/@storybook/react-native-ui/-/react-native-ui-8.4.0-alpha.1.tgz#7edeeff6a95d2b297fe7deed0ccf73f358c3acd7"
-  integrity sha512-kyFmG+LCQHIa/apqqdlF/niRjTO46AUBpfD2z4bpewvy6q0uqnCzj4xTzjqlDim4Tv9jR0s73Wk0bweqq/MsCw==
+"@storybook/react-native-ui@^8.4.0-rc.0":
+  version "8.4.0-rc.0"
+  resolved "https://registry.yarnpkg.com/@storybook/react-native-ui/-/react-native-ui-8.4.0-rc.0.tgz#e24b81f465628ea407d4962f7b41713813d54484"
+  integrity sha512-OM5aS6LfIWELjtE3jsjxYnE353/D2PribfI+Ntyr3IuOhWUd82GOgLyWANFA5Zdsqm2kDo838EBRXQg8E3HNAQ==
   dependencies:
     "@storybook/core" "^8.4.0"
     "@storybook/react" "^8.4.0"
-    "@storybook/react-native-theming" "^8.4.0-alpha.1"
+    "@storybook/react-native-theming" "^8.4.0-rc.0"
     fuse.js "^7.0.0"
     memoizerific "^1.11.3"
     polished "^4.3.1"
     store2 "^2.14.3"
 
-"@storybook/react-native@8.4.0-alpha.1":
-  version "8.4.0-alpha.1"
-  resolved "https://registry.yarnpkg.com/@storybook/react-native/-/react-native-8.4.0-alpha.1.tgz#b16e207a41a9159e76ebe4e9e4b38b9c57f15b75"
-  integrity sha512-vu/H7Gfn81PtSqsEGrxebHth4NYU2kUymCZpCCgT5437D9zsSUt4DOtb20uSGf91tEbcFih5hvb3Kj7/uRMxFg==
+"@storybook/react-native@8.4.0-rc.0":
+  version "8.4.0-rc.0"
+  resolved "https://registry.yarnpkg.com/@storybook/react-native/-/react-native-8.4.0-rc.0.tgz#7b18e5de9a81ebfb9198e1bf3390ae28eddc7768"
+  integrity sha512-AZrpynPJ/qYeRSzZeSMD6PjVf+B4/WFSOq5T51dDReZzCPvcidpCEQGo0g40MIJ+LmQqe4uKfIqJRfcELCgT7g==
   dependencies:
     "@storybook/core" "^8.4.0"
     "@storybook/csf" "^0.1.1"
     "@storybook/global" "^5.0.0"
     "@storybook/react" "^8.4.0"
-    "@storybook/react-native-theming" "^8.4.0-alpha.1"
-    "@storybook/react-native-ui" "^8.4.0-alpha.1"
+    "@storybook/react-native-theming" "^8.4.0-rc.0"
+    "@storybook/react-native-ui" "^8.4.0-rc.0"
     chokidar "^3.5.1"
     commander "^8.2.0"
     dedent "^1.5.1"
