@@ -21,8 +21,8 @@
     "@react-native-async-storage/async-storage": "1.23.1",
     "@react-native-community/datetimepicker": "8.2.0",
     "@react-native-community/slider": "4.5.5",
-    "expo": "^52.0.31",
-    "expo-constants": "~17.0.5",
+    "expo": "^52.0.40",
+    "expo-constants": "~17.0.8",
     "expo-status-bar": "~2.0.1",
     "react": "18.3.1",
     "react-dom": "18.3.1",
@@ -38,22 +38,22 @@
     "@babel/preset-env": "^7.24.0",
     "@chromatic-com/storybook": "^1.9.0",
     "@expo/metro-runtime": "~4.0.1",
-    "@storybook/addon-actions": "^8.5.3",
-    "@storybook/addon-controls": "^8.5.3",
-    "@storybook/addon-essentials": "^8.5.3",
-    "@storybook/addon-links": "^8.5.3",
-    "@storybook/addon-ondevice-actions": "^8.5.4",
-    "@storybook/addon-ondevice-backgrounds": "^8.5.4",
-    "@storybook/addon-ondevice-controls": "^8.5.4",
-    "@storybook/addon-ondevice-notes": "^8.5.4",
-    "@storybook/react": "^8.5.3",
-    "@storybook/react-native": "^8.5.4",
-    "@storybook/react-native-web-vite": "^8.5.3",
+    "@storybook/addon-actions": "^8.6.7",
+    "@storybook/addon-controls": "^8.6.7",
+    "@storybook/addon-essentials": "^8.6.7",
+    "@storybook/addon-links": "^8.6.7",
+    "@storybook/addon-ondevice-actions": "^8.6.2",
+    "@storybook/addon-ondevice-backgrounds": "^8.6.2",
+    "@storybook/addon-ondevice-controls": "^8.6.2",
+    "@storybook/addon-ondevice-notes": "^8.6.2",
+    "@storybook/react": "^8.6.7",
+    "@storybook/react-native": "^8.6.2",
+    "@storybook/react-native-web-vite": "^8.6.7",
     "@types/react": "~18.3.12",
     "babel-plugin-react-docgen-typescript": "^1.5.1",
     "babel-plugin-react-native-web": "^0.19.10",
     "cross-env": "^7.0.3",
-    "storybook": "^8.5.3",
+    "storybook": "^8.6.7",
     "typescript": "~5.3.3",
     "vite": "^6.0.11"
   },
@@ -67,5 +67,6 @@
     "overrides": {
       "react-docgen-typescript": "2.2.2"
     }
-  }
+  },
+  "packageManager": "yarn@4.7.0"
 }
