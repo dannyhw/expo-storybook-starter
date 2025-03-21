@@ -11,6 +11,7 @@
     "eject": "expo eject",
     "storybook:web": "storybook dev -p 6006",
     "build-storybook": "storybook build",
+    "storybook:web:serve": "npx http-server ./storybook-static",
     "storybook-generate": "sb-rn-get-stories --config-path .rnstorybook",
     "storybook": "cross-env STORYBOOK_ENABLED='true' expo start",
     "storybook:ios": "cross-env STORYBOOK_ENABLED='true' expo start --ios",
