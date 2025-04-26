@@ -37,8 +37,9 @@
   "devDependencies": {
     "@babel/core": "^7.24.0",
     "@babel/preset-env": "^7.24.0",
-    "@chromatic-com/storybook": "^3.2.6",
+    "@chromatic-com/storybook": "^4.0.0-0",
     "@expo/metro-runtime": "~4.0.1",
+    "@storybook/addon-docs": "9.0.0-beta.4",
     "@storybook/addon-ondevice-actions": "9.0.0-beta.1",
     "@storybook/addon-ondevice-backgrounds": "9.0.0-beta.1",
     "@storybook/addon-ondevice-controls": "9.0.0-beta.1",
