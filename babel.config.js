@@ -5,6 +5,7 @@ module.exports = function (api) {
     plugins: [
       "@babel/plugin-transform-class-static-block",
       ["babel-plugin-react-docgen-typescript", { exclude: "node_modules" }],
+      "react-native-reanimated/plugin",
     ],
   };
 };
