@@ -1,3 +1,5 @@
+// fixes fast refresh on web
+import "@expo/metro-runtime";
 import { StyleSheet, Text, View } from "react-native";
 import Constants from "expo-constants";
 
