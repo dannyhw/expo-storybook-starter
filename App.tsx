@@ -1,7 +1,6 @@
 // fixes fast refresh on web
 import "@expo/metro-runtime";
 import { StyleSheet, Text, View } from "react-native";
-import Constants from "expo-constants";
 
 function App() {
   return (
@@ -13,7 +12,7 @@ function App() {
 
 let AppEntryPoint = App;
 
-if (Constants.expoConfig?.extra?.storybookEnabled === "true") {
+if (process.env.EXPO_PUBLIC_STORYBOOK_ENABLED === "true") {
   AppEntryPoint = require("./.rnstorybook").default;
 }
 

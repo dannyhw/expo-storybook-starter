@@ -5,7 +5,6 @@ import { MyButton } from "./Button";
 import { action } from "storybook/actions";
 
 const meta = {
-  title: "MyButton",
   component: MyButton,
   args: {
     text: "Hello world",
