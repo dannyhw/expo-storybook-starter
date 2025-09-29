@@ -1,5 +1,14 @@
 import { withBackgrounds } from "@storybook/addon-ondevice-backgrounds";
 import type { Preview } from "@storybook/react";
+import { Platform } from "react-native";
+
+// fix for actions on web
+if (Platform.OS === "web") {
+  // @ts-ignore
+  global.ProgressTransitionRegister = {};
+  // @ts-ignore
+  global.UpdatePropsManager = {};
+}
 
 const preview: Preview = {
   decorators: [withBackgrounds],
