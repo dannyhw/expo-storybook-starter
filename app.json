@@ -1,6 +1,7 @@
 {
   "name": "expo-storybook-starter",
   "slug": "expo-storybook-starter",
+  "scheme": "storybook",
   "version": "1.0.0",
   "orientation": "portrait",
   "icon": "./assets/icon.png",
@@ -13,9 +14,7 @@
   "updates": {
     "fallbackToCacheTimeout": 0
   },
-  "assetBundlePatterns": [
-    "**/*"
-  ],
+  "assetBundlePatterns": ["**/*"],
   "ios": {
     "supportsTablet": true
   },
@@ -30,7 +29,5 @@
     "bundler": "metro",
     "output": "single"
   },
-  "plugins": [
-    "expo-router"
-  ]
+  "plugins": ["expo-router"]
 }
