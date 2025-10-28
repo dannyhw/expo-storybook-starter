@@ -1,4 +1,4 @@
-import { StorybookConfig } from "@storybook/react-native-web-vite";
+import type { StorybookConfig } from "@storybook/react-native-web-vite";
 
 const main: StorybookConfig = {
   stories: ["../components/**/*.stories.@(js|jsx|ts|tsx)"],
