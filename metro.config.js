@@ -3,9 +3,9 @@ const { getDefaultConfig } = require("expo/metro-config");
 const defaultConfig = getDefaultConfig(__dirname);
 
 const {
-  withStorybookConfig,
-} = require("@storybook/react-native/metro/withStorybookConfig");
+  withStorybook,
+} = require("@storybook/react-native/metro/withStorybook");
 
-module.exports = withStorybookConfig(defaultConfig, {
-  removeStorybook: process.env.EXPO_PUBLIC_STORYBOOK_ENABLED !== "true",
+module.exports = withStorybook(defaultConfig, {
+  enabled: process.env.EXPO_PUBLIC_STORYBOOK_ENABLED === "true",
 });
