@@ -2,13 +2,13 @@ import type { Meta, StoryObj } from "@storybook/react-native";
 import React from "react";
 import { View } from "react-native";
 import { MyButton } from "./Button";
-import { action } from "storybook/actions";
+import { fn } from "storybook/test";
 
 const meta = {
   component: MyButton,
   args: {
     text: "Hello world",
-    onPress: action("onPress"),
+    onPress: fn(),
   },
   decorators: [
     (Story) => (
