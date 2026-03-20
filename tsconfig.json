@@ -4,5 +4,12 @@
     "strict": true,
     "moduleResolution": "bundler"
   },
-  "include": [".storybook/**/*", ".rnstorybook/**/*", "**/*.ts", "**/*.tsx"]
+  "include": [
+    ".storybook/**/*",
+    ".rnstorybook/**/*",
+    "**/*.ts",
+    "**/*.tsx",
+    ".expo/types/**/*.ts",
+    "expo-env.d.ts"
+  ]
 }

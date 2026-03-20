@@ -5,9 +5,11 @@ const main: StorybookConfig = {
   addons: [
     "@storybook/addon-ondevice-notes",
     "@storybook/addon-ondevice-controls",
-    "@storybook/addon-ondevice-backgrounds",
     "@storybook/addon-ondevice-actions",
   ],
+  features: {
+    ondeviceBackgrounds: true,
+  },
 };
 
 export default main;

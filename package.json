@@ -19,60 +19,64 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "@gorhom/bottom-sheet": "^5.1.8",
+    "@gorhom/bottom-sheet": "^5.2.8",
     "@react-native-async-storage/async-storage": "2.2.0",
-    "@react-native-community/datetimepicker": "8.4.4",
-    "@react-native-community/slider": "5.0.1",
-    "expo": "^54.0.30",
-    "expo-constants": "~18.0.12",
-    "expo-linking": "~8.0.11",
-    "expo-router": "~6.0.21",
-    "expo-status-bar": "~3.0.9",
-    "react": "19.1.0",
-    "react-dom": "19.1.0",
-    "react-native": "0.81.5",
-    "react-native-gesture-handler": "~2.28.0",
-    "react-native-reanimated": "~4.1.1",
+    "@react-native-community/datetimepicker": "8.6.0",
+    "@react-native-community/slider": "5.1.2",
+    "expo": "^55",
+    "expo-constants": "~55.0.9",
+    "expo-linking": "~55.0.8",
+    "expo-router": "~55.0.7",
+    "expo-status-bar": "~55.0.4",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "react-native": "0.83.2",
+    "react-native-gesture-handler": "~2.30.0",
+    "react-native-reanimated": "4.2.1",
     "react-native-safe-area-context": "~5.6.0",
-    "react-native-screens": "~4.16.0",
-    "react-native-svg": "15.12.1",
+    "react-native-screens": "~4.23.0",
+    "react-native-svg": "15.15.3",
     "react-native-web": "^0.21.0",
-    "react-native-worklets": "0.5.1"
+    "react-native-worklets": "0.7.2"
   },
   "devDependencies": {
     "@babel/core": "^7.24.0",
     "@babel/preset-env": "^7.24.0",
-    "@chromatic-com/storybook": "^4",
-    "@expo/metro-runtime": "~6.1.2",
-    "@storybook/addon-docs": "^10.1.11",
-    "@storybook/addon-ondevice-actions": "^10.1.1",
-    "@storybook/addon-ondevice-backgrounds": "^10.1.1",
-    "@storybook/addon-ondevice-controls": "^10.1.1",
-    "@storybook/addon-ondevice-notes": "^10.1.1",
-    "@storybook/react": "^10.1.11",
-    "@storybook/react-native": "^10.1.1",
-    "@storybook/react-native-web-vite": "^10.1.11",
-    "@types/react": "~19.1.10",
+    "@chromatic-com/storybook": "^5.0.2",
+    "@expo/metro-runtime": "~55.0.6",
+    "@storybook/addon-docs": "^10.3.1",
+    "@storybook/addon-ondevice-actions": "10.3.0",
+    "@storybook/addon-ondevice-backgrounds": "10.3.0",
+    "@storybook/addon-ondevice-controls": "10.3.0",
+    "@storybook/addon-ondevice-notes": "10.3.0",
+    "@storybook/react": "^10.3.1",
+    "@storybook/react-native": "10.3.0",
+    "@storybook/react-native-web-vite": "^10.3.1",
+    "@types/react": "~19.2.10",
     "babel-plugin-react-docgen-typescript": "^1.5.1",
     "babel-plugin-react-native-web": "^0.19.10",
+    "baseline-browser-mapping": "^2.10.9",
     "cross-env": "^10.1.0",
     "eslint": "^9.33.0",
-    "eslint-config-expo": "~10.0.0",
-    "eslint-plugin-storybook": "^10.1.11",
+    "eslint-config-expo": "~55.0.0",
+    "eslint-plugin-storybook": "^10.3.1",
     "jiti": "^2.5.1",
-    "storybook": "^10.1.11",
+    "storybook": "^10.3.1",
     "typescript": "~5.9.2",
-    "vite": "^7.0.6"
+    "vite": "^8.0.1"
   },
   "resolutions": {
-    "react-docgen-typescript": "2.2.2"
+    "react-docgen-typescript": "2.2.2",
+    "vite-plugin-rnw": "^0.0.11"
   },
   "overrides": {
-    "react-docgen-typescript": "2.2.2"
+    "react-docgen-typescript": "2.2.2",
+    "vite-plugin-rnw": "^0.0.11"
   },
   "pnpm": {
     "overrides": {
-      "react-docgen-typescript": "2.2.2"
+      "react-docgen-typescript": "2.2.2",
+      "vite-plugin-rnw": "^0.0.11"
     }
   },
   "packageManager": "yarn@4.7.0"

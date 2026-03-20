@@ -14,7 +14,9 @@
   "updates": {
     "fallbackToCacheTimeout": 0
   },
-  "assetBundlePatterns": ["**/*"],
+  "assetBundlePatterns": [
+    "**/*"
+  ],
   "ios": {
     "supportsTablet": true
   },
@@ -24,10 +26,16 @@
       "backgroundColor": "#FFFFFF"
     }
   },
+  "experiments": {
+    "typedRoutes": true
+  },
   "web": {
     "favicon": "./assets/favicon.png",
     "bundler": "metro",
     "output": "single"
   },
-  "plugins": ["expo-router"]
+  "plugins": [
+    "expo-router",
+    "@react-native-community/datetimepicker"
+  ]
 }
