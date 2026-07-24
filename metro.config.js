@@ -4,8 +4,6 @@ const defaultConfig = getDefaultConfig(__dirname);
 
 const {
   withStorybook,
-} = require("@storybook/react-native/metro/withStorybook");
+} = require("@storybook/react-native/withStorybook");
 
-module.exports = withStorybook(defaultConfig, {
-  enabled: process.env.EXPO_PUBLIC_STORYBOOK_ENABLED === "true",
-});
+module.exports = withStorybook(defaultConfig );

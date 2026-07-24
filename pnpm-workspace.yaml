@@ -1,0 +1,9 @@
+# Keep React Native dependencies in a traditional node_modules layout.
+nodeLinker: hoisted
+
+overrides:
+  react-docgen-typescript: 2.2.2
+
+allowBuilds:
+  esbuild: true
+  unrs-resolver: true
